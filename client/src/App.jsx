@@ -1,5 +1,6 @@
 import { Routes, Route} from 'react-router-dom';
-import Header from './components/Header.jsx'
+import Header from './components/NavComps/Header.jsx'
+import BottomNav from './components/NavComps/BottomNav.jsx';
 
 const App = () => {
   return(
@@ -7,6 +8,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Header />} />
       </Routes>
+      <BottomNav />
     </>
   )
 }

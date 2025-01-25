@@ -1,0 +1,11 @@
+
+.iconSize{
+   font-size: 3em !important;
+   cursor: pointer;
+}
+
+.tabFocused{
+    font-size:3.5em !important;
+    box-shadow: 2px 2px 2px;
+    border:0px solid;
+}
